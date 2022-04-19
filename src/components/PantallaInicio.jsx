@@ -3,12 +3,13 @@ import './PantallaInicio.css';
 
 export const PantallaInicio = () => {
   const [mostrarPantallaInicio, setmostrarPantallaInicio] = useState(true);
-
+ 
   useEffect(() => {
     setTimeout(() => {
       setmostrarPantallaInicio(!mostrarPantallaInicio);
+      setmostrarPantallaInicio(false)
     }, 2000);
-  }, []);
+  },[mostrarPantallaInicio]);
 
   return (
     <div>

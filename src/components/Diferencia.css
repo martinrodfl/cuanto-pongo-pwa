@@ -1,0 +1,27 @@
+.diferencia-lista {
+	font-size: 10px;
+}
+
+.total {
+	font-size: 20px;
+	margin: 5px 5px 10px 5px;
+}
+.total span{
+	padding: 0 0.5em;
+	margin-left: 0.5em;
+	background-color: rgb(216, 73, 73);
+	border-radius: 8px;
+	color: aliceblue;
+}
+
+.ponen-cu {
+	font-size: 20px;
+	margin: 5px 5px 10px 5px;
+}
+.ponen-cu span{
+	padding: 0 0.5em;
+	margin-left: 0.5em;
+	background-color: rgb(73, 216, 149);
+	border-radius: 8px;
+	color: aliceblue;
+}

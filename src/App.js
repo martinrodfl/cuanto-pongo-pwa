@@ -1,25 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import { AppProvider } from './context/AppContext';
+import { Header } from './components/Header';
+import { CompradorForm } from './components/CompradorForm';
+import { TotalGastos } from './components/TotalGastos';
+import { CompradoresLista } from './components/CompradoresLista';
+import { TotalParticipantes } from './components/TotalParticipantes';
+import { ValorTicket } from './components/ValorTicket';
+import { Modal } from './components/Modal';
+import { useModal } from './components/customHooks/useModal';
+import { PantallaInicio } from './components/PantallaInicio';
+
 function App() {
+
+  const [isOpenModal, openModal, closeModal] = useModal(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppProvider>
+    <PantallaInicio />
+        <Header />
+      <div className='App'>
+        <Modal isOpen={isOpenModal} closeModal={closeModal} />
+        <TotalParticipantes/>
+        <CompradorForm/>
+        <CompradoresLista/>
+        <TotalGastos/>
+        <ValorTicket/>
+        <div>
+          <button onClick={openModal} className='btn-modal'>Calcular Diferencias</button>
+        </div>
+      </div>
+    </AppProvider>
   );
 }
 

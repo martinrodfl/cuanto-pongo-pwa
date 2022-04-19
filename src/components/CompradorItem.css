@@ -1,0 +1,30 @@
+.comprador-item {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 0 0 2px 0;
+	border-radius: 10px;
+	background-color: rgba(188, 189, 186, 0.295);
+	margin-top: 2px;
+}
+
+.btn-delete {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	border: none;
+	display:inline-block;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	padding: 0.1rem 0 0 0.1rem;
+}
+
+.comprador-nombre {
+	padding-left: 0.5em;
+}
+
+.comprador-gasto {
+	padding-left: 0.5em;
+}

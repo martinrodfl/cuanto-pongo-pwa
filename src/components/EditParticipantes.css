@@ -1,0 +1,39 @@
+.edit-participantes {
+	display: flex;
+	width: 90%;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+	padding: 0.9rem 1rem;
+}
+
+.input-edit {
+	width: 30%;
+	height: 5vh;
+	border: 1px solid rgb(221, 221, 221);
+	color:  rgba(54, 54, 54, 0.87);
+	border-radius: 3px;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+	align-items: center;
+	gap: 1em;
+	padding-left: 0.3em ;
+}
+
+.btn-guardar {
+	cursor: pointer;
+	margin-left: 1em;
+	padding: 0 10px;
+	border: none;
+	background-color: rgba(206, 39, 39, 0.705);
+	box-shadow:  0 -3em 3em rgba(0, 0, 0, 0.1),
+		0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+	color: rgb(233, 233, 233);
+	font-weight: 700;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

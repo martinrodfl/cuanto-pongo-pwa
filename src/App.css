@@ -24,3 +24,34 @@
 	align-items: center;
 	margin-top: 0.9rem;
 }
+
+/* ipad- de 768px hasta 1280px */
+@media screen and ( min-width: 768px) {
+
+	.App {
+		
+		width: 70vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+		
+	}
+	
+}
+
+/* laptop - de 1280px en adelante */
+@media screen and ( min-width: 1280px) {
+
+	.App {
+		
+		width: 60vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+		
+	}
+}

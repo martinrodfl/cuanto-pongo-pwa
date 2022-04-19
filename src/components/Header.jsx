@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-import pagarImg from '../images/pagar-editada.png';
+import pagarImg from '../images/pago-manos.png';
 
 export const Header = () => {
   return (

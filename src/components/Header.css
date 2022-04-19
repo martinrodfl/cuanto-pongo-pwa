@@ -38,7 +38,7 @@ header div{
 }
 
 header img {
-	width: 40vw;
+	width: 31vw;
 	overflow: hidden;
 }
 
@@ -56,19 +56,11 @@ header img {
 		position: relative;
 	}
 	.header-interior {
-		background-color: rgb(54, 54, 54);
-		display:flex;
-		justify-content: space-between;
-		flex-direction: row;
-		align-items: center;
 		width: 70%;
-		height: 17vh;
-		position: relative;
-		overflow: hidden;
 	}
 
 	header img {
-		width: 20vw;
+		width: 15vw;
 		overflow: hidden;
 	}
 	
@@ -87,19 +79,12 @@ header img {
 		position: relative;
 	}
 	.header-interior {
-		/* background-color: rgb(54, 54, 54);
-		display:flex;
-		justify-content: space-between;
-		flex-direction: row;
-		align-items: center; */
 		width: 70%;
-		/* height: 17vh;
-		position: relative;
-		overflow: hidden; */
+	
 	}
 
 	header img {
-		width: 20vw;
+		width: 10vw;
 		overflow: hidden;
 	}
 

@@ -30,13 +30,18 @@
 
 	.App {
 		
-		width: 70vw;
+		width: 80vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		gap: 1em;
 		
+	}
+
+	.btn-modal {
+		width: 20vw;
+		height: 5vh;
 	}
 	
 }
@@ -52,6 +57,10 @@
 		justify-content: center;
 		align-items: center;
 		gap: 1em;
-		
+	}
+
+	.btn-modal {
+		width: 20vw;
+		height: 5vh;
 	}
 }

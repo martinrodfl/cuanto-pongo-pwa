@@ -7,7 +7,8 @@
 	min-height: 100vh;
 	background-color: rgba(0, 0, 0, 0.884);
 	display: none;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -30,19 +31,18 @@
 	background-color: rgb(255, 255, 255);
 	box-shadow:0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 	overflow-y: auto;
+	margin-bottom: 50px;
 }
 
 .btn-modal-cerrar {
 	cursor: pointer;
 	width: 4em;
 	height: 2em;
-	position:absolute;
+	/* position:absolute;
 	top: 10em;
-	left: 19.9em;
+	left: 19.9em; */
 	border: none;
-	background-color: rgb(75, 75, 216);
-	box-shadow:  0 -3em 3em rgba(0, 0, 0, 0.1),
-		0.1em 0.1em 0.5em rgba(207, 207, 207, 0.3);
+	background-color: rgba(54, 54, 54, 0.87);
 	color: rgb(233, 233, 233);
 	font-weight: 700;
 	border-radius: 3px;

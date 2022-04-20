@@ -9,7 +9,7 @@
 
 .input-edit {
 	width: 30%;
-	height: 5vh;
+	height: 2rem;
 	border: 1px solid rgb(221, 221, 221);
 	box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 	color:  rgba(54, 54, 54, 0.87);
@@ -37,4 +37,25 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/* ipad- de 768px hasta 1280px */
+@media screen and ( min-width: 768px) {
+
+	.input-edit {
+		height: 3rem;
+		font-size: 1.5rem;
+	}
+
+	
+}
+
+/* laptop - de 1280px en adelante */
+@media screen and ( min-width: 1280px) {
+
+	.input-edit {
+		height: 3rem;
+		font-size: 1.5rem;
+	}
+	
 }

@@ -58,7 +58,7 @@ export const CompradorForm = () => {
           required
         />
         <button type="submit" className="btn-agregar">
-          Agregar
+          +
         </button>
       </div>
     </form>

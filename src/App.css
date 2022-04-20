@@ -1,6 +1,7 @@
 .App {
 	margin:1rem auto;
 	width: 100vw;
+	min-width: 375px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -10,37 +11,45 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+.div-btn {
+	display: flex;
+	width: 90%;
+	justify-content: center;
+	
+}
+
 .btn-modal {
 	cursor: pointer;
-	padding: 0.7em 0.8em;
+	min-width: 335px;
 	border: none;
 	background-color: rgba(54, 54, 54, 0.87);
 	box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 	color: var(--fuente-color-claro);
-	font-weight: 700;
+	font-size: 1.5rem;
 	border-radius: 3px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 0.9rem;
+	width: 90vw;
+	height: 5vh;
+	color: rgb(106, 238, 194);
 }
 
 /* ipad- de 768px hasta 1280px */
 @media screen and ( min-width: 768px) {
 
 	.App {
-		
 		width: 80vw;
-		display: flex;
+	/* 	display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 1em;
-		
+		gap: 1em; */
 	}
 
 	.btn-modal {
-		width: 20vw;
+		width: 90vw;
 		height: 5vh;
 	}
 	
@@ -52,15 +61,15 @@
 	.App {
 		
 		width: 60vw;
-		display: flex;
+		/* display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 1em;
+		gap: 1em; */
 	}
 
 	.btn-modal {
-		width: 20vw;
+		width: 90vw;
 		height: 5vh;
 	}
 }

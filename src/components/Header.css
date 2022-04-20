@@ -5,6 +5,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	min-width: 375px;
 	height: 17vh;
 	position: relative;
 }
@@ -22,7 +23,6 @@ header {
 .header-titulos {
 	font-family: 'Kavoon', cursive;
 	letter-spacing: 5px;
-
 }
 
 header div{
@@ -39,6 +39,7 @@ header div{
 
 header img {
 	width: 31vw;
+	min-width: 155px;
 	overflow: hidden;
 }
 
@@ -57,6 +58,10 @@ header img {
 	}
 	.header-interior {
 		width: 70%;
+	}
+
+	.header-titulos {
+		font-size: x-large;
 	}
 
 	header img {
@@ -80,7 +85,10 @@ header img {
 	}
 	.header-interior {
 		width: 70%;
-	
+	}
+
+	.header-titulos {
+		font-size: xx-large;
 	}
 
 	header img {

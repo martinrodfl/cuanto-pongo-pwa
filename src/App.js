@@ -27,7 +27,7 @@ function App() {
         <CompradoresLista/>
         <TotalGastos/>
         <ValorTicket/>
-        <div>
+        <div className='div-btn'>
           <button onClick={openModal} className='btn-modal'>Calcular Diferencias</button>
         </div>
       </div>

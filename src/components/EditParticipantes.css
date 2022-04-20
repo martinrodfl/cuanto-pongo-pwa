@@ -11,6 +11,7 @@
 	width: 30%;
 	height: 5vh;
 	border: 1px solid rgb(221, 221, 221);
+	box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 	color:  rgba(54, 54, 54, 0.87);
 	border-radius: 3px;
 	font-size: 1.5em;

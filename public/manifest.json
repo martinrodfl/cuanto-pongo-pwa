@@ -37,7 +37,7 @@
   "display_override": ["fullscreen", "minimal-ui"],
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
+  "background_color": "#363636",
   "categories": ["utilities", "finance", "social"],
   "description": "Aplicacion para calcular cuanto pagar al dividir gastos en una comida/reunion/fiesta",
   "dir": "ltr",

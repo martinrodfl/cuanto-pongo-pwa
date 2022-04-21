@@ -9,6 +9,8 @@
 	gap: 1em;
 	color: var(--fuente-color-oscuro);
 	font-family: 'Quicksand', sans-serif;
+
+	background-color: rgb(128, 250, 250);
 }
 
 .div-btn {

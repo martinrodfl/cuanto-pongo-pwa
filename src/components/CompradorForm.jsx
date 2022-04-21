@@ -4,6 +4,8 @@ import { AppContext } from '../context/AppContext';
 import { v4 as uuidv4 } from 'uuid';
 import './CompradorForm.css';
 
+import add from '../images/Add.svg';
+
 export const CompradorForm = () => {
   const { totalParticipantes, dispatch } = useContext(AppContext);
 
@@ -58,7 +60,7 @@ export const CompradorForm = () => {
           required
         />
         <button type="submit" className="btn-agregar">
-          +
+          <img src={add} alt='add-btn'></img>
         </button>
       </div>
     </form>

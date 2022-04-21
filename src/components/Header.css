@@ -1,7 +1,6 @@
-
 header {
 	background-color: rgb(54, 54, 54);
-	display:flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
@@ -9,9 +8,10 @@ header {
 	height: 17vh;
 	position: relative;
 }
+
 .header-interior {
 	background-color: rgb(54, 54, 54);
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 	align-items: center;
@@ -20,12 +20,13 @@ header {
 	position: relative;
 	overflow: hidden;
 }
+
 .header-titulos {
 	font-family: 'Kavoon', cursive;
 	letter-spacing: 5px;
 }
 
-header div{
+header div {
 	display: flex;
 	flex-direction: column;
 	padding-left: 0.5rem;
@@ -45,9 +46,9 @@ header img {
 
 
 /* ipad- de 768px hasta 1280px */
-@media screen and ( min-width: 768px) {
+@media screen and (min-width: 768px) {
 
-	header {
+	/* header {
 		background-color: rgb(54, 54, 54);
 		display:flex;
 		justify-content: center;
@@ -55,7 +56,8 @@ header img {
 		width: 100%;
 		height: 17vh;
 		position: relative;
-	}
+	} */
+
 	.header-interior {
 		width: 70%;
 	}
@@ -68,13 +70,13 @@ header img {
 		width: 15vw;
 		overflow: hidden;
 	}
-	
+
 }
 
 /* laptop - de 1280px en adelante */
-@media screen and ( min-width: 1280px) {
+@media screen and (min-width: 1280px) {
 
-	header {
+	/* header {
 		background-color: rgb(54, 54, 54);
 		display:flex;
 		justify-content: center;
@@ -82,7 +84,8 @@ header img {
 		width: 100%;
 		height: 17vh;
 		position: relative;
-	}
+	} */
+	
 	.header-interior {
 		width: 70%;
 	}

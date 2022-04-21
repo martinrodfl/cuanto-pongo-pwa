@@ -45,5 +45,29 @@
   "lang": "es-UY",
   "orientation": "portrait-primary",
   "scope": "/",
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "screenshots" : [
+    {
+        "src": "capture1_header.png",
+        "sizes": "359x109",
+        "type": "image/png",
+        "platform": "wide",
+        "label": "App header"
+      },
+      {
+        "src": "capture2_body.png",
+        "sizes": "358x637",
+        "type": "image/png",
+        "platform": "wide",
+        "label": "App body"
+      },
+      {
+        "src": "capture3_results.png",
+        "sizes": "358x638",
+        "type": "image/png",
+        "platform": "wide",
+        "label": "App results"
+      }
+      
+    ]
 }
